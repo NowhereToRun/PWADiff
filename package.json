@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "marax dev",
     "build": "marax build",
-    "dll": "marax dll"
+    "dll": "marax dll",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "jsdoc": "jsdoc -c jsdoc.conf.json -r"
   },
   "dependencies": {
     "vue": "^2.5.3"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
+    "docdash": "^0.4.0",
+    "jsdoc": "^3.5.5",
     "typescript": "^3.0.1",
     "webpack-marauder": "^1.12.2"
   },
