@@ -1,0 +1,27 @@
+{
+  "name": "PWADiff",
+  "version": "0.1.0",
+  "description": "service worker diff js/css file",
+  "private": true,
+  "scripts": {
+    "dev": "marax dev",
+    "build": "marax build",
+    "dll": "marax dll"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "vue": "^2.5.3"
+  },
+  "devDependencies": {
+    "webpack-marauder": "^1.12.2",
+    "typescript": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT",
+  "author": "NowhereToRun <452242153@qq.com>",
+  "repository": ""
+}
