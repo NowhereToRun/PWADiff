@@ -9,13 +9,12 @@
     "dll": "marax dll"
   },
   "dependencies": {
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
     "vue": "^2.5.3"
   },
   "devDependencies": {
-    "webpack-marauder": "^1.12.2",
-    "typescript": "^3.0.1"
+    "cz-conventional-changelog": "^2.1.0",
+    "typescript": "^3.0.1",
+    "webpack-marauder": "^1.12.2"
   },
   "engines": {
     "node": ">= 8.0.0",
@@ -23,5 +22,10 @@
   },
   "license": "MIT",
   "author": "NowhereToRun <452242153@qq.com>",
-  "repository": ""
+  "repository": "",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
